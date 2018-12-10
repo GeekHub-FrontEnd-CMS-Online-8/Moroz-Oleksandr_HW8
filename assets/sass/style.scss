@@ -1,0 +1,18 @@
+@import "variables";
+@import "reset";
+@import "blocks/header";
+@import "blocks/development";
+@import "fonts";
+
+
+
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+

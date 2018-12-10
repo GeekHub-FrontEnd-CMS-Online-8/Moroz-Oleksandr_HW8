@@ -1,0 +1,82 @@
+
+#header {
+	width: 1400px;
+	min-width: 100%;
+	min-height: 620px;
+	background: url(../img/bcg_header.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 50px;
+}
+
+
+
+.menu_list {
+	display: inline-flex;
+}
+
+.menu_list>li {
+	margin-right: 30px;
+}
+
+.menu_list>li:last-child {
+	margin-right: 0px;
+}
+
+.fa-telegram-plane {
+	font-size: 35px;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.logo_word {
+	font-family: $cubano;
+	font-size: 25px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.menu_link {
+	font-family: $brandonm;
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.desc {
+	font-family: $brandonl;
+	font-size: 32px;
+	color: $w;
+	margin-top: 160px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+#header h1 {
+	font-family: $brandonb;
+	font-size: 66px;
+	color: $w;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 80px;
+}
+
+.learn {
+	display: block;
+	width: 240px;
+	height: 65px;
+	border-radius: 2px solid $w;
+	background: none;
+	font-family: "Brandon Grotesque Bold", sans-serif;
+	font-size: 23px;
+	color: $w;
+	text-transform: capitalize;
+	margin: 0 auto;
+	cursor: pointer;
+}
