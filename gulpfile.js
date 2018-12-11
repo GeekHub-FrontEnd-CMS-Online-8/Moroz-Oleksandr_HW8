@@ -11,7 +11,6 @@ gulp.task('sass', function () {
 
 gulp.task('js', function () {
 	return gulp.src('assets/js/**/*.js')
-		.pipe(sass())
 		.pipe(gulp.dest('build/js'))
 		.pipe(browserSync.reload({stream: true}));
 });
@@ -36,7 +35,7 @@ gulp.task("html", function () {
 		.pipe(browserSync.reload({stream: true}))
 });
 
-gulp.task("watch", [ 'sass', "html", 'img', 'fonts'], function () {
+gulp.task("watch", [ 'sass', "html", 'img', 'fonts', 'js'], function () {
 	browserSync.init({
 		server: "./build",
 		notify: false,
