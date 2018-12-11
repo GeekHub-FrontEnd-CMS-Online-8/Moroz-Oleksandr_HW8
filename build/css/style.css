@@ -46,17 +46,17 @@ table {
   border-spacing: 0; }
 
 #header {
-  width: 1400px;
-  min-width: 100%;
+  width: 100%;
   min-height: 620px;
-  background: url(../img/bcg_header.jpg) no-repeat center;
-  background-size: cover; }
+  background: url(../img/bcg_header.jpg) no-repeat center center;
+  background-size: cover;
+  flex-wrap: nowrap;
+  padding-top: 50px; }
 
 .nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 50px; }
+  justify-content: space-around;
+  align-items: center; }
 
 .menu_list {
   display: inline-flex; }
@@ -83,6 +83,24 @@ table {
   font-size: 18px;
   color: #fff;
   text-transform: capitalize; }
+
+.hidden-menu {
+  display: none; }
+
+.btn-menu {
+  display: none;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: none;
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  position: fixed;
+  right: 50px;
+  top: 43px;
+  z-index: 102; }
 
 .desc {
   font-family: "Brandon Grotesque Light", sans-serif;
@@ -115,10 +133,10 @@ table {
   cursor: pointer; }
 
 .development {
-  width: 1400px;
-  min-width: 100%;
+  width: 100%;
   min-height: 440px;
-  padding: 100px 0; }
+  padding: 100px 0;
+  flex-wrap: nowrap; }
 
 .development .container {
   display: flex;
@@ -159,8 +177,9 @@ table {
   font-weight: normal;
   font-style: normal; }
 
-.container {
-  width: 940px;
+.wrap {
+  max-width: 1400px;
+  min-width: 320px;
   margin: 0 auto; }
 
 a {

@@ -1,9 +1,9 @@
 
 .development {
-	width: 1400px;
-	min-width: 100%;
+	width: 100%;
 	min-height: 440px;
 	padding: 100px 0;
+	flex-wrap: nowrap;
 }
 
 .development .container {

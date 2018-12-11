@@ -1,17 +1,18 @@
 
 #header {
-	width: 1400px;
-	min-width: 100%;
+	width: 100%;
 	min-height: 620px;
-	background: url(../img/bcg_header.jpg) no-repeat center;
+	background: url(../img/bcg_header.jpg) no-repeat center center;
 	background-size: cover;
+	flex-wrap: nowrap;
+	padding-top: 50px;
 }
 
 .nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
-	padding-top: 50px;
+	
 }
 
 
@@ -46,6 +47,26 @@
 	font-size: 18px;
 	color: #fff;
 	text-transform: capitalize;
+}
+
+.hidden-menu {
+	display: none;
+}
+
+.btn-menu {
+	display: none;
+	text-align: center;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	background-color: none;
+	color: #fff;
+	font-size: 28px;
+	cursor: pointer;
+	position: fixed;
+	right: 50px;
+	top: 43px;
+	z-index: 102;
 }
 
 .desc {
