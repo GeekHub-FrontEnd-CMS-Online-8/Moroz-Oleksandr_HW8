@@ -1,13 +1,37 @@
 
 .development {
 	width: 100%;
-	min-height: 440px;
-	padding: 100px 0;
-	flex-wrap: nowrap;
+	min-height: 240px;
+	margin: 100px 0;
 }
 
 .development .container {
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.descrip>h2 {
+	font-family: $brandonl;
+	font-size: 60px;
+	color: #222222;
+	margin-bottom: 50px;
+	text-transform: capitalize;
+}
+
+.bold {
+	font-family: $brandonb;
+	font-weight: 600;
+	}
+
+
+.descrip p {
+	width: 560px;
+	font-family: $brandonr;
+	font-size: 14px;
+	color: #777777;
+	line-height: 24px;
+	word-spacing: 1px;
 	
 }

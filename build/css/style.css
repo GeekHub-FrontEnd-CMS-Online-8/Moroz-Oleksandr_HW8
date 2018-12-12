@@ -177,13 +177,32 @@ logo:active {
 
 .development {
   width: 100%;
-  min-height: 440px;
-  padding: 100px 0;
-  flex-wrap: nowrap; }
+  min-height: 240px;
+  margin: 100px 0; }
 
 .development .container {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  align-items: center; }
+
+.descrip > h2 {
+  font-family: "Brandon Grotesque Light", sans-serif;
+  font-size: 60px;
+  color: #222222;
+  margin-bottom: 50px;
+  text-transform: capitalize; }
+
+.bold {
+  font-family: "Brandon Grotesque Bold", sans-serif;
+  font-weight: 600; }
+
+.descrip p {
+  width: 560px;
+  font-family: "Brandon Grotesque Regular", sans-serif;
+  font-size: 14px;
+  color: #777777;
+  line-height: 24px;
+  word-spacing: 1px; }
 
 @font-face {
   font-family: 'CubanoRegular';
@@ -220,9 +239,35 @@ logo:active {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Brandon Grotesque Regular';
+  src: url("BrandonGrotesque-Regular.eot");
+  src: url("BrandonGrotesque-Regular.eot?#iefix") format("embedded-opentype"), url("BrandonGrotesque-Regular.woff") format("woff"), url("BrandonGrotesque-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.branding {
+  width: 100%;
+  min-height: 240px;
+  margin-bottom: 100px;
+  background-color: #fafafa;
+  padding: 100px 0; }
+
+.branding .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.picture1 {
+  order: -1; }
+
 .wrap {
   max-width: 1400px;
   min-width: 320px;
+  margin: 0 auto; }
+
+.container {
+  width: 940px;
   margin: 0 auto; }
 
 a {

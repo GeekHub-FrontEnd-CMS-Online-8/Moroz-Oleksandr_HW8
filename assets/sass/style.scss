@@ -3,6 +3,7 @@
 @import "blocks/header";
 @import "blocks/development";
 @import "fonts";
+@import "blocks/branding";
 
 
 
@@ -11,6 +12,11 @@
 .wrap {
 	max-width: 1400px;
 	min-width: 320px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 940px;
 	margin: 0 auto;
 }
 
