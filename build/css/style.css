@@ -261,6 +261,10 @@ logo:active {
 .picture1 {
   order: -1; }
 
+.skills .container {
+  flex-wrap: wrap;
+  height: 390px; }
+
 .wrap {
   max-width: 1400px;
   min-width: 320px;
